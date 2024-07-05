@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import { listCustomers } from '../services/CustomerService'
+import { useNavigate } from 'react-router-dom'
 
 const CustomerListComponent = () => {
 
     const [customers, setCustomers] = useState([])
+
+    const navigator = useNavigate();
 
     useEffect(() => {
         listCustomers().then((response) =>{
@@ -12,9 +15,15 @@ const CustomerListComponent = () => {
             console.error(error);
         })
     }, [])
+
+    function addNewCustomer(){
+        navigator('/add-customer')
+    }
+
   return (
     <div className='container'>
         <h2 className='text-center'>List of Customers</h2>
+        <button className='btn btn-primary mb-2' onClick={addNewCustomer}>Add Customer</button>
         <table className='table table-striped table-bordered'>
             <thead>
                 <tr>

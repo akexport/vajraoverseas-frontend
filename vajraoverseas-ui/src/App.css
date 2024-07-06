@@ -7,3 +7,21 @@
     text-align: center;
     color: white;
 }
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-align: left;
+    color: white;
+}
+.img-responsive {
+    max-width: 100px;  
+    max-height: 100px; 
+}
+.brand {
+    width: 100px;
+    height: 100px;
+}

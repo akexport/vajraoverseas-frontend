@@ -7,6 +7,7 @@ import CustomerListComponent from './components/CustomerListComponent'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import CustomerComponent from './components/CustomerComponent'
 import HomeComponent from './components/HomeComponent'
+import ServiceComponent from './components/ServiceComponent'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
           <Route path='/customers' element={<CustomerListComponent />}></Route>
           //http://localhost:3000/add-customer
           <Route path='/add-customer' element={<CustomerComponent />}></Route>
+          //http://localhost:3000/services
+          <Route path='/services' element={<ServiceComponent />}></Route>
         </Routes>
         <FooterComponent />
       </BrowserRouter>

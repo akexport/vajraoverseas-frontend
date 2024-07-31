@@ -22,14 +22,14 @@ const HeaderComponent = () => {
                 </div>
                 <div className='container d-flex flex-wrap justify-content-end'>
                   <button type="button" className='btn btn-light text-dark me-2'>Login</button>
-                  <button type="button" className='btn btn-primary'>Sign-up</button>
+                  {/* <button type="button" className='btn btn-primary'>Sign-up</button> */}
                 </div>
             {/* </div> */}
               <div className='container justify-content-end'>
                 <div className='d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start'>
                   <ul className='nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small'>
                     <li>
-                      <a href="/" className='nav-link text-secondary'>
+                      <a href="/" className='nav-link text-white'>
                         <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#home"></use></svg>
                         Home
                       </a>
@@ -41,7 +41,7 @@ const HeaderComponent = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#" className='nav-link text-white'>
+                      <a href="/customers" className='nav-link text-white'>
                         <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#people-circle"></use></svg>
                         Customers
                       </a>
@@ -53,7 +53,7 @@ const HeaderComponent = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/add-customer" className='nav-link text-white'>
+                      <a href="/add-contact" className='nav-link text-white'>
                         <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#table"></use></svg>
                         Contact
                       </a>

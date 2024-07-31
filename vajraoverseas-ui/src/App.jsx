@@ -8,6 +8,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import CustomerComponent from './components/CustomerComponent'
 import HomeComponent from './components/HomeComponent'
 import ServiceComponent from './components/ServiceComponent'
+import ContactComponent from './components/ContactComponent'
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
           <Route path='/add-customer' element={<CustomerComponent />}></Route>
           //http://localhost:3000/services
           <Route path='/services' element={<ServiceComponent />}></Route>
+          //http://localhost:3000/add-contact
+          <Route path='/add-contact' element={<ContactComponent />}></Route>
         </Routes>
         <FooterComponent />
       </BrowserRouter>

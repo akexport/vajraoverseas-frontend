@@ -9,3 +9,7 @@ export const listCustomers = () =>{
 export const createCustomer = (customer) => {
     return axios.post(REST_API_BASE_URL, customer);
 }
+
+export const createContact = (contact) => {
+    return axios.post(REST_API_BASE_URL, contact);
+}

@@ -4,8 +4,14 @@ function HomeComponent() {
     return (
         <>
             <React.Fragment>
-                <h1 className='text-center text-danger text-capitalize my-5'> Welcome to Vajra Overseas</h1>
+                {/* <h1 className='text-center text-danger text-capitalize my-5'> Welcome to Vajra Overseas</h1> */}
                 <div className="container">
+                    <div className="row">
+                        <div className="col-sm"><div className="card" >
+                            <img src="./HomeImage1.png" className="card-img-top" alt="..." height="350px" />
+                            
+                        </div></div>
+                    </div>
                 <div className="row">
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea1.jpg" className="card-img-top" alt="..." height="500px" /> */}

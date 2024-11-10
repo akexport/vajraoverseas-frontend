@@ -8,7 +8,7 @@ function HomeComponent() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <img src="./HomeImage1.png" className="card-img-top" alt="..." height="350px" />
+                            <img src="./VajraHome2.png" className="card-img-top" alt="..." height="350px" />
                             
                         </div></div>
                     </div>

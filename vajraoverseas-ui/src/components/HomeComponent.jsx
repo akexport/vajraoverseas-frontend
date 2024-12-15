@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Slider from './Slider';
+// import VideoLooper from 'react-video-looper'
 function HomeComponent() {
     return (
         <>
@@ -8,8 +9,11 @@ function HomeComponent() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <img src="./VajraHome2.png" className="card-img-top" alt="..." height="350px" />
-                            
+                            {/* <img src="./HomeSlide3.jpg" className="card-img-top" alt="..." height="350px" /> */}
+                            {/* <video width="1200" height="350" loop>
+                            <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
+                            </video> */}
+                            <Slider />
                         </div></div>
                     </div>
                 <div className="row">

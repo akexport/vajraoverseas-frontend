@@ -1,0 +1,27 @@
+
+.slider{
+    /* background-color: red; */
+    width: 100%;
+    height: 50vh;
+}
+
+.slider-img{
+    /* background-color: blue; */
+    width: 100%;
+    height: 50vh;
+    /* margin-top: auto; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    position: absolute;
+    bottom: 50x;
+    display: flex;
+    gap: 20x;
+}
+
+.hidden{
+    display: none;
+}

@@ -4,7 +4,7 @@ const HeaderComponent = () => {
   
   return (
     <div>
-        <header>
+        <header style={{ height: 150 }}>
             {/* <nav className='navbar navbar-dark bg-primary'>
                 <a className='navbar-brand' href="#"><img className='img-responsive brand' src='./Logo.jpg' /></a>
             </nav> */}
@@ -35,29 +35,29 @@ const HeaderComponent = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#" className='nav-link text-dark'>
-                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#grid"></use></svg>
+                      <a href="/aboutus" className='nav-link text-dark'>
+                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#aboutus"></use></svg>
+                        About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/products" className='nav-link text-dark'>
+                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#products"></use></svg>
                         Products
                       </a>
                     </li>
                     <li>
-                      <a href="/customers" className='nav-link text-dark'>
-                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#people-circle"></use></svg>
-                        Customers
-                      </a>
-                    </li>
-                    <li>
                       <a href="/services" className='nav-link text-dark'>
-                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#speedometer2"></use></svg>
+                        <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#services"></use></svg>
                         Services
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/add-contact" className='nav-link text-dark'>
                         <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#table"></use></svg>
                         Contact
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

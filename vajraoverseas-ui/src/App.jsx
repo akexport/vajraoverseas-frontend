@@ -9,6 +9,8 @@ import CustomerComponent from './components/CustomerComponent'
 import HomeComponent from './components/HomeComponent'
 import ServiceComponent from './components/ServiceComponent'
 import ContactComponent from './components/ContactComponent'
+import AboutUsComponent from './components/AboutUsComponent'
+import ProductComponent from './components/ProductComponent'
 
 function App() {
 
@@ -21,6 +23,10 @@ function App() {
           <Route path='/' element={<HomeComponent />}></Route>
           //http://localhost:3000/customers
           <Route path='/customers' element={<CustomerListComponent />}></Route>
+          //http://localhost:3000/aboutus
+          <Route path='/aboutus' element={<AboutUsComponent />}></Route>
+          //http://localhost:3000/products
+          <Route path='/products' element={<ProductComponent />}></Route>
           //http://localhost:3000/add-customer
           <Route path='/add-customer' element={<CustomerComponent />}></Route>
           //http://localhost:3000/services

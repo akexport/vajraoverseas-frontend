@@ -9,10 +9,10 @@
 }
 .logo {
     position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 120px;
-    height: 120px;
+    top: -50px;
+    left: 70px;
+    width: 250px;
+    height: 250px;
     background-color: black;
     text-align: left;
     color: white;
@@ -33,4 +33,45 @@
     height: 40px;
     background: green;
     color: white;
+}
+.card-body-hn {
+    flex: auto;
+    padding: 5px 5px;
+    color: var(--bs-card-color);
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 289px;
+    height: 414px;
+}
+.row-hm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.4* var(--bs-gutter-x));
+    margin-left: calc(-3.3* var(--bs-gutter-x));
+}
+.col-sm-hm-1 {
+    /* flex: 20 25 10%; */
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 10%; */
+    --bs-gutter-x: -1rem;
+    --bs-gutter-y: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(0* var(--bs-gutter-y));
+    margin-right: calc(-60.4* var(--bs-gutter-x));
+    margin-left: calc(-0.3* var(--bs-gutter-x));
+}
+.col-sm-hm-2 {
+    --bs-gutter-x: -1rem;
+    --bs-gutter-y: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(0* var(--bs-gutter-y));
+    margin-right: calc(-60.4* var(--bs-gutter-x));
+    margin-left: calc(-0.3* var(--bs-gutter-x));
 }

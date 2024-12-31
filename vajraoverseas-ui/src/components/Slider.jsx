@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import "./Slider.css"
 import img1 from "../assets/VajraHome1.png"
-import img2 from "../assets/VajraHome2.jpg"
-import img3 from "../assets/VajraHome3.jpg"
-import img4 from "../assets/VajraHome4.jpg"
-import img5 from "../assets/VajraHome5.jpg"
+import img2 from "../assets/VajraHome2.png"
+import img3 from "../assets/VajraHome3.png"
+import img4 from "../assets/VajraHome4.png"
+import img5 from "../assets/VajraHome5.png"
 
 const Slider = () => {
     const [slider, SetSlider] = useState(0)
@@ -27,11 +27,12 @@ const Slider = () => {
   return (
     <div className='slider'>
         <div className='slider-img'>
-            <img src={data[slider]} alt='' style={{width:"100%",height:"50vh"}} />
-            <div className='btn'>
-                 <button onClick={HandlePrevious}>-</button>
-                 <button onClick={HandleNext}>+</button>
-            </div>
+            <img src={data[slider]} alt='' />
+            {/* style={{width:"100%",height:"500px"}} */}
+            {/* <div className='btn'> 
+                 <button type="button" class="btn-primary" onClick={HandlePrevious}>-</button>
+                 <button type="button" class="btn-primary" onClick={HandleNext}>+</button>
+            </div> */}
         </div>
 
     </div>

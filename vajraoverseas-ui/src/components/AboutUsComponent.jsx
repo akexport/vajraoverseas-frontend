@@ -8,13 +8,18 @@ const AboutUsComponent = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">
-                                <img src="src/assets/VajraHome2.jpg" className="card-img-top" alt="..." height="200px" />
-                            </div>
+                            <img src="src/assets/VajraHome1.png" className="card-img-top" alt="..." height="300px" />              
+                        </div></div>
+                    </div><br />
+                    <div className="row">
+                        <div className="col-sm"><div className="card" >
+                            {/* <div className="card-body"> */}
+                                <img src="src/assets/VajraHome2.png" className="card-img-top" alt="..." height="500px" />
+                            {/* </div> */}
                         </div></div>
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea1.jpg" className="card-img-top" alt="..." height="200px" /> */}
-                            <div className="card-body">
+                            {/* <div className="card-body"> */}
                                 <h5 className="card-title">Visionary India</h5>
                                 <p className="card-text">
                                 This is globally known that, India is one of the fastest growing country in various domains. Not only because of current developments, 
@@ -29,13 +34,13 @@ const AboutUsComponent = () => {
                                 The Foreign Trade Development and Regulation Act, 1992, provides for the Indian government to announce the EXIM Policy every five years. Each EXIM Policy announced by the Indian Government is valid for five years, and they can amend, enhance or add new provisions to the policy every year on 31 March, taking effect from 1 April. 
 
                                 </p>
-                            </div>
+                            {/* </div> */}
                         </div></div>
                     </div>
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea4.jpg" className="card-img-top" alt="..." height="200px" /> */}
-                            <div className="card-body">
+                            {/* <div className="card-body"> */}
                                 <h4 className="card-title">About Vajra Overseas</h4>
                                 <p className="card-text">
                                 At Vajra Overseas, we pride ourselves on being one of the leading force in the world of international trade.
@@ -55,17 +60,31 @@ const AboutUsComponent = () => {
                                 Join us on a journey of growth and success as we help you unlock new opportunities and achieve your 
                                 international trade objectives.
                                 </p>
-                            </div>
+                            {/* </div> */}
                         </div></div>
                         <div className="col-sm">
                             {/* <div className="card" > */}
                             {/* <div className="card-body"> */}
-                                <video class="vedio" autoPlay width="450" height="350" loop>
+                                <video class="vedio" autoPlay width="550" height="550" loop>
                                 <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
                                 </video>
                             {/* </div> */}
+                            {/* </div> */}
                         </div>
-                        {/* </div> */}
+                    </div>
+                    <div className="row">
+                        <div className="col-sm"><div className="card" >
+                            <h4 className="card-title">Certificate 1</h4>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
+                            <h4 className="card-title">Certificate 2</h4>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
+                            <h4 className="card-title">Certificate 3</h4>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
+                            <h4 className="card-title">Certificate 4</h4>
+                        </div></div>
                     </div>
                 </div>
             </React.Fragment>

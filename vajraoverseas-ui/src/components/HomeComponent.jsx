@@ -9,19 +9,19 @@ function HomeComponent() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
-                            <div className="card" >
+                            {/* <div className="card" > */}
                             
                             {/* <img src="./HomeSlide3.jpg" className="card-img-top" alt="..." height="350px" /> */}
                             {/* <video width="1200" height="350" loop>
                             <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
                             </video> */}
                             <Slider />
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div><br /><br /><br /><br /><br /><br /><br /><br />
-                    <div className="row-hm">
+                    <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">
+                            {/* <div className="card-body"> */}
                                 <h4 className="card-title" >Kabuli Channa</h4>
                                 <h5 className="card-title">Nutrition facts</h5>
                                     364 Calories - 100 grams
@@ -43,11 +43,11 @@ function HomeComponent() {
                                     <p>Percent Daily Values are based on a 2,000 calorie diet. 
                                         Your daily values may be higher or lower depending on your calorie needs.</p>
                                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                            </div>
+                            {/* </div> */}
                         </div></div>
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea4.jpg" className="card-img-top" alt="..." height="200px" /> */}
-                            <div className="card-body">
+                            {/* <div className="card-body"> */}
                                 <h5 className="card-title">Interesting Facts</h5>
                                 <p className="card-text">
                                 <b>1. Nutritional Powerhouse:</b> Kabuli channa is a rich source of protein, dietary fiber, vitamins, and minerals such as iron, magnesium, and zinc. It is an excellent food for vegetarians and vegans due to its high protein content.<br />
@@ -57,9 +57,9 @@ function HomeComponent() {
                                 <b>5. Economic Importance:</b> Kabuli channa is an important cash crop in many countries, contributing to the livelihoods of farmers and playing a crucial role in food security.<br />
                                 </p>
                                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                            </div>
+                            {/* </div> */}
                         </div></div>
-                        {/* <div className="col-sm-hm"><div className="card" >
+                        {/* <div className="col-sm"><div className="card" >
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

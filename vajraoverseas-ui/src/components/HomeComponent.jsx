@@ -45,6 +45,16 @@ function HomeComponent() {
                                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                             {/* </div> */}
                         </div></div>
+                        <div className="col-sm">
+                            {/* <div className="card" > */}
+                            {/* <div className="card-body"> */}
+                            <div className="card" >
+                                <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." height="500px" />
+                          
+                            </div>
+                            {/* </div> */}
+                            {/* </div> */}
+                        </div>
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea4.jpg" className="card-img-top" alt="..." height="200px" /> */}
                             {/* <div className="card-body"> */}

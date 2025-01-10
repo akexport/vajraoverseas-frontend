@@ -1,7 +1,7 @@
 
 .slider{
     /* background-color: red; */
-    width: 100%;
+    width: 200vh;
     height: 50vh;
     /* border-style: none; */
     /* border: 0; */
@@ -9,7 +9,7 @@
 
 .slider-img{
     /* background-color: blue; */
-    width: 100%;
+    width: 200vh;
     height: 500px;
     /* margin-top: auto; */
     position: relative;

@@ -8,15 +8,20 @@ const AboutUsComponent = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <img src="src/assets/VajraHome1.png" className="card-img-top" alt="..." height="300px" />              
+                            <img src="src/assets/AboutUs01.png" className="card-img-top" alt="..." height="400px" />              
                         </div></div>
                     </div><br />
                     <div className="row">
-                        <div className="col-sm"><div className="card" >
-                            {/* <div className="card-body"> */}
-                                <img src="src/assets/VajraHome2.png" className="card-img-top" alt="..." height="500px" />
-                            {/* </div> */}
-                        </div></div>
+                    
+                        <div className="col-sm">
+                            {/* <video class="vedio" autoPlay width="650" height="350" loop>
+                                <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
+                            </video> */}
+                            <div className="card" >
+                                <img src="src/assets/AboutUs02.jpg" className="card-img-top" alt="..." height="420px" />
+                          
+                            </div>
+                        </div>
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea1.jpg" className="card-img-top" alt="..." height="200px" /> */}
                             {/* <div className="card-body"> */}
@@ -37,6 +42,7 @@ const AboutUsComponent = () => {
                             {/* </div> */}
                         </div></div>
                     </div>
+                    <br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             {/* <img src="./CheakPea4.jpg" className="card-img-top" alt="..." height="200px" /> */}
@@ -65,9 +71,10 @@ const AboutUsComponent = () => {
                         <div className="col-sm">
                             {/* <div className="card" > */}
                             {/* <div className="card-body"> */}
-                                <video class="vedio" autoPlay width="550" height="550" loop>
-                                <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
-                                </video>
+                            <div className="card" >
+                                <img src="src/assets/VisionaryIndia.jpg" className="card-img-top" alt="..." height="460px" />
+                          
+                            </div>
                             {/* </div> */}
                             {/* </div> */}
                         </div>

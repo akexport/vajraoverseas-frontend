@@ -34,7 +34,6 @@ const Slider = () => {
                  <button type="button" class="btn-primary" onClick={HandleNext}>+</button>
             </div> */}
         </div>
-
     </div>
     // <div className='slider'>
     //     {

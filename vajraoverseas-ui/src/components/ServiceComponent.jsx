@@ -13,24 +13,25 @@ const ServiceComponent = () => {
                 <div className="row">
                     <div className="col-sm"><div className="card" >
                         <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." style={{width:"100%", height:"300px"}} />
-                        <h5 className="card-title">Service-1 Discription</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 className="card-title">Transportation And Logistics</h5>
+                        <p className="card-text">Export companies can help businesses with the transportation of their products or 
+                            services to other countries. They can arrange for shipping, handle customs clearance, and ensure that 
+                            the products or services are delivered on time and in good condition.</p>
                     </div></div>
                     <div className="col-sm"><div className="card" >
                         <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." style={{width:"100%", height:"300px"}} />
-                        <h5 className="card-title">Service-2 Discription</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 className="card-title">Trade Finance</h5>
+                        <p className="card-text">Export companies can offer businesses access to trade finance solutions, such as 
+                            letters of credit, export credit insurance, and factoring.</p>
                     </div></div>
                     <div className="col-sm"><div className="card" >
                         <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." style={{width:"100%", height:"300px"}} />
-                        <h5 className="card-title">Service-3 Discription</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 className="card-title">Streamlining Logistics and Documentation</h5>
+                        <p className="card-text">Export companies have the expertise and knowledge to navigate the complex 
+                            regulations and requirements that come with exporting goods or services. They can help businesses 
+                            save time and money by streamlining the logistics and documentation processes.</p>
                     </div></div>
-                    <div className="col-sm"><div className="card" >
-                        <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." style={{width:"100%", height:"300px"}} />
-                        <h5 className="card-title">Service-4 Discription</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div></div>
+                    
                 </div>
             </div>
         </React.Fragment>

@@ -18,7 +18,8 @@ const AboutUsComponent = () => {
                                 <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
                             </video> */}
                             <div className="card" >
-                                <img src="src/assets/AboutUs02.jpg" className="card-img-top" alt="..." height="300px" />
+                            <div className="card-body">
+                                <img src="src/assets/AboutUs02.jpg" className="card-img-top" alt="..." height="320px" />
                           
                             
                                 <h4 className="card-title">About Vajra Overseas</h4>
@@ -40,9 +41,10 @@ const AboutUsComponent = () => {
                                 Join us on a journey of growth and success as we help you unlock new opportunities and achieve your 
                                 international trade objectives.
                                 </p>
-                            </div>
+                            </div></div>
                         </div>
-                        <div className="col-sm"><div className="card" >
+                        <div className="col-sm">
+                            {/* <div className="card" > */}
                             {/* <img src="./CheakPea1.jpg" className="card-img-top" alt="..." height="200px" /> */}
                             {/* <div className="card-body"> */}
                                 <h5 className="card-title">Visionary India</h5>
@@ -53,7 +55,7 @@ const AboutUsComponent = () => {
                                 <br></br>
                                 Import-Export is one of the industry which is currently growing in India with support of Indian government. This industry
                                 still having lots of potential to grow.
-                                <img src="src/assets/VisionaryIndia.jpg" className="card-img-top" alt="..." height="300px" />
+                                <img src="src/assets/VisionaryIndia.jpg" className="card-img-top" alt="..." height="320px" />
                                 <h5>What is EXIM Policy?</h5>
                                 The EXIM (Export-Import) Policy contains guidelines governing the imports and exports of products and services in and out of India. EXIM Policy’s primary objective is to regulate and develop foreign trade by facilitating imports into and exports from India. 
                                 <br></br><br></br>
@@ -61,7 +63,8 @@ const AboutUsComponent = () => {
 
                                 </p>
                             {/* </div> */}
-                        </div></div>
+                        {/* </div> */}
+                        </div>
                     </div>
                     <br />
                     {/* <div className="row">

@@ -25,14 +25,18 @@ const Slider = () => {
     },[slider])
 
   return (
-    <div className='slider'>
-        <div className='slider-img'>
+    <div className="row">
+        <div className="col-sm">
+        <div className="card" >
+        {/* <div className="card-body"> */}
             <img src={data[slider]} alt='' />
             {/* style={{width:"100%",height:"500px"}} */}
             {/* <div className='btn'> 
                  <button type="button" class="btn-primary" onClick={HandlePrevious}>-</button>
                  <button type="button" class="btn-primary" onClick={HandleNext}>+</button>
             </div> */}
+            {/* </div> */}
+            </div>
         </div>
     </div>
     // <div className='slider'>

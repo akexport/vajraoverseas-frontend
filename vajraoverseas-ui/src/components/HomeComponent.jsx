@@ -5,25 +5,16 @@ function HomeComponent() {
     return (
         <>
             <React.Fragment>
-                {/* <h1 className='text-center text-danger text-capitalize my-5'> Welcome to Vajra Overseas</h1> */}
                 <div className="container">
-                    {/* <div className="row">
-                        <div className="col-sm">
-                            <div className="card" >
-                             */}
-                    {/* <img src="./HomeSlide3.jpg" className="card-img-top" alt="..." height="350px" /> */}
                     {/* <video width="1200" height="350" loop>
                             <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
                             </video> */}
                     <Slider />
-                    {/* </div>
-                        </div>
-                    </div> */}
                     <br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
-                                <h4 className="card-title bg-primary text-white">Kabuli Channa</h4>
+                                <h4 className="card-title">Kabuli Channa</h4>
                                 <h5 className="card-title">Nutrition facts</h5>
                                 364 Calories - 100 grams
                                 <table className='table table-striped table-bordered'>
@@ -58,7 +49,8 @@ function HomeComponent() {
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
-                                <h5 className="card-title bg-primary text-white">Fascinating Facts About Kabuli Channa</h5>
+                                {/* <h5 className="card-title bg-primary text-white">Fascinating Facts About Kabuli Channa</h5> */}
+                                <h5 className="card-title">Fascinating Facts About Kabuli Channa</h5>
                                 <p className="card-text">
                                     <b>1. Nutritional Powerhouse:</b> Kabuli channa is a rich source of protein, dietary fiber, vitamins, and minerals such as iron, magnesium, and zinc.
                                     Its high protein content makes it a perfect dietary choice for vegetarians and vegans, promoting overall health and well-being.<br />
@@ -71,21 +63,12 @@ function HomeComponent() {
                                     <b>5. Economic Importance:</b> As a valuable cash crop, Kabuli channa plays a crucial role in global food security and supports the livelihoods of farmers worldwide.
                                     Its demand in international markets continues to grow, reinforcing its economic importance in agricultural trade.<br />
                                 </p>
-                                {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                             </div>
                         </div></div>
-                        {/* <div className="col-sm"><div className="card" >
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div></div> */}
                     </div>
                     <br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            {/* <img src="./CheakPea5.jpg" className="card-img-top" alt="..." height="200px" /> */}
                             <div className="card-body">
                                 <h5 className="card-title">Directors</h5>
                                 <p className="card-text">
@@ -101,21 +84,17 @@ function HomeComponent() {
                                         </tbody>
                                     </table>
                                 </p>
-                                {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                             </div>
                         </div></div>
                         <div className="col-sm"><div className="card" >
-                            {/* <img src="./CheakPea5.jpg" className="card-img-top" alt="..." height="200px" /> */}
                             <div className="card-body">
                                 <h5 className="card-title">Contacts</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                             </div>
                         </div></div>
                     </div>
                 </div>
             </React.Fragment>
-
         </>
     )
 }

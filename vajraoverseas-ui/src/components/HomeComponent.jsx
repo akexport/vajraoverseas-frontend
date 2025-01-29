@@ -70,28 +70,43 @@ function HomeComponent() {
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
+                                <h5 className="card-title">Vajra Overseas – Pioneering Global Trade with Power and Precision</h5>
+                                <p className="card-text">
+                                Founded in <b>27th Feb 2023, Vajra Overseas</b> stands as a formidable force in international exports, 
+                                setting new benchmarks in quality, efficiency, and global connectivity. At the helm of this 
+                                ambitious enterprise are two trailblazing leaders, <b>Mr. Amol Khanorkar, Director of International 
+                                Sales,</b> and <b>Mr. Shashank Gajbhiye, Director of Logistics and Supply Chain Management</b> - driving the 
+                                company with innovation, expertise, and an unyielding commitment to excellence.
+                                With unmatched industry acumen and a forward-thinking approach, we specialize in optimizing global 
+                                trade, ensuring seamless supply chain operations, and delivering top-tier products to international 
+                                markets. Our strategic vision, cutting-edge logistics, and unwavering professionalism position <b>Vajra 
+                                Overseas</b> as a trusted powerhouse in the ever-evolving world of global commerce.
+                                At <b>Vajra Overseas</b>, we don’t just export - we revolutionize international trade with precision, passion, 
+                                and performance. <b>Step into a world of limitless opportunities-your gateway to global success starts here!</b>
+                                </p>
+                            </div>
+                        </div></div>
+                    </div>
+                    <br />
+                    <div className="row">
+                        <div className="col-sm"><div className="card" >
+                            <div className="card-body">
                                 <h5 className="card-title">Directors</h5>
                                 <p className="card-text">
                                     <table className='table table-striped table-bordered'>
                                         <thead>
                                             <tr>
-                                                <th> Name</th><th> Designation</th><th> Appointment Date</th>
+                                                <th> Name</th><th> Designation</th><th> Appointment Date</th><th> Contacts</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr><td> Amol Khanorkar</td><td> Director</td><td> - </td></tr>
-                                            <tr><td> Shashank Gajbhiye</td><td> Director</td><td> - </td></tr>
+                                            <tr><td> Amol Khanorkar</td><td> Director of International Sales</td><td> 27th-Feb-2023 </td><td> +91-9004070609 </td></tr>
+                                            <tr><td> Shashank Gajbhiye</td><td> Director of Logistics and Supply Chain Management</td><td> 27th-Feb-2023 </td><td> +91-9373142052 </td></tr>
                                         </tbody>
                                     </table>
                                 </p>
                             </div>
-                        </div></div>
-                        <div className="col-sm"><div className="card" >
-                            <div className="card-body">
-                                <h5 className="card-title">Contacts</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div></div>
+                        </div></div>                      
                     </div>
                 </div>
             </React.Fragment>

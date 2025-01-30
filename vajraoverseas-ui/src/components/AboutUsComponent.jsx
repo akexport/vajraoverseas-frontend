@@ -87,19 +87,31 @@ const AboutUsComponent = () => {
                             </p>
                         </div></div>
                     </div>
+                    <br />
+                    <div className="row">
+                        <h4>Certifications</h4>
+                    </div>
+                    <br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <h4 className="card-title">Certificate 1</h4>
+                            <img src="src/assets/Cert1.jpg" className="card-img-top" alt="..." height="290px" />
+                            <h6>MSME</h6>
                         </div></div>
+                        <div className="col-sm">
+                           
+                        </div>
                         <div className="col-sm"><div className="card" >
-                            <h4 className="card-title">Certificate 2</h4>
+                            <img src="src/assets/Cert2.jpg" className="card-img-top" alt="..." height="290px" />
+                            <h6>Registration</h6>
                         </div></div>
+                        <div className="col-sm">
+
+                        </div>
                         <div className="col-sm"><div className="card" >
-                            <h4 className="card-title">Certificate 3</h4>
+                            <img src="src/assets/Cert3.jpg" className="card-img-top" alt="..." height="290px" />
+                            <h6>GST</h6>
                         </div></div>
-                        <div className="col-sm"><div className="card" >
-                            <h4 className="card-title">Certificate 4</h4>
-                        </div></div>
+                        
                     </div>
                 </div>
             </React.Fragment>

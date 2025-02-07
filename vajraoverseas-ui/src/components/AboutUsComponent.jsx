@@ -61,6 +61,11 @@ const AboutUsComponent = () => {
                     <br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
+                            <div className="card-body">
+                                <img src="src/assets/AboutusRisingGlobalExportLeader.png" className="card-img-top" alt="..." style={{ width: "600px", height: "510px" }} />
+                            </div>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
                             <h4 className="card-title">Framework & Implementation of the EXIM Policy</h4>
                             <p className="card-text">
                             <b>The Foreign Trade (Development & Regulation) Act, 1992,</b> empowers the Indian government to formulate and 

@@ -7,7 +7,7 @@ const ServiceComponent = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <img src="src/assets/Services01.png" className="card-img-top" alt="..." height="400px" />
+                            <img src="src/assets/Services02.png" className="card-img-top" alt="..." height="400px" />
                         </div></div>
                     </div><br />
                     <div className="row">

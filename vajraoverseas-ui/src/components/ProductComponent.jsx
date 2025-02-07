@@ -12,7 +12,7 @@ const ProductComponent = () => {
                     </div><br />
                     <div className="row">
                         <div>
-                            <img src="src/assets/Product_KabuliChana.png" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
+                            <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "400px", height: "400px" }} />
                             <p class="rounded float-start">
                                 <h4 className="card-title">Kabuli Chana – A Powerhouse of Nutrition</h4>
                                 Kabuli Chana, also known as <b>Chickpeas, Chole Chana, or Garbanzo Beans,</b> is a nutrient-dense legume 

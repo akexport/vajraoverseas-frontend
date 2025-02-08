@@ -49,10 +49,11 @@ function HomeComponent() {
                     <br /><br />
                     <div className="row">
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">
+                            {/* <div className="card-body"> */}
                                 {/* <h5 className="card-title bg-primary text-white">Fascinating Facts About Kabuli Channa</h5> */}
-                                <img src="src/assets/HomepageFascinatinFacts.jpg" className="card-img-top" alt="..." style={{ width: "600px", height: "510px" }} />
-                            </div>
+                                <img src="src/assets/HomepageFascinatinFacts.jpg" className="card-img-top" alt="..." height="560px"/>
+                                {/* // style={{ width: "600px", height: "510px" }} /> */}
+                            {/* </div> */}
                         </div></div>    
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">        
@@ -80,13 +81,13 @@ function HomeComponent() {
                                 <h5 className="card-title">Vajra Overseas – Pioneering Global Trade with Power and Precision</h5>
                                 <p className="card-text">
                                 Founded in <b>27th Feb 2023, Vajra Overseas</b> stands as a formidable force in international exports, 
-                                setting new benchmarks in quality, efficiency, and global connectivity. <br /><br />At the helm of this 
+                                setting new benchmarks in quality, efficiency, and global connectivity. <br />At the helm of this 
                                 ambitious enterprise are two trailblazing leaders, <b>Mr. Amol Khanorkar, Director of International 
                                 Sales,</b> and <b>Mr. Shashank Gajbhiye, Director of Logistics and Supply Chain Management</b> - driving the 
-                                company with innovation, expertise, and an unyielding commitment to excellence.<br /><br />
+                                company with innovation, expertise, and an unyielding commitment to excellence.<br />
                                 With unmatched industry acumen and a forward-thinking approach, we specialize in optimizing global 
                                 trade, ensuring seamless supply chain operations, and delivering top-tier products to international 
-                                markets. <br /><br />Our strategic vision, cutting-edge logistics, and unwavering professionalism position <b>Vajra 
+                                markets. <br />Our strategic vision, cutting-edge logistics, and unwavering professionalism position <b>Vajra 
                                 Overseas</b> as a trusted powerhouse in the ever-evolving world of global commerce.
                                 At <b>Vajra Overseas</b>, we don’t just export - we revolutionize international trade with precision, passion, 
                                 and performance. <br /><b>Step into a world of limitless opportunities-your gateway to global success starts here!</b>
@@ -94,9 +95,9 @@ function HomeComponent() {
                             </div>
                         </div></div>
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">
-                                <img src="src/assets/HomepagePowerPricision.jpg" className="card-img-top" alt="..." style={{ width: "600px", height: "510px" }} />
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <img src="src/assets/HomepagePowerPricision.jpg" className="card-img-top" alt="..." height="510px" />
+                            {/* </div> */}
                         </div></div>
                     </div>
                     <br /><br />

@@ -1,0 +1,18 @@
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(red, green, blue, alpha);
+}
+.modal-container{
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    transform: translate(-20%, -20%);
+    max-width: 200%;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    background-color: aqua;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import PopupComponent from "./PopupComponent";
 
 const ProductComponent = () => {
     return (
@@ -12,47 +13,13 @@ const ProductComponent = () => {
                     </div><br />
                     <div className="row">
                         <div>
-                            <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "400px", height: "400px" }} />
+                            <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "400px", height: "400px" }} />                         
                             <p class="rounded float-start">
                                 <h4 className="card-title">Kabuli Chana – A Powerhouse of Nutrition</h4>
                                 Kabuli Chana, also known as <b>Chickpeas, Chole Chana, or Garbanzo Beans,</b> is a nutrient-dense legume 
                                 packed with <b>protein, folic acid (Vitamin B9), magnesium, and dietary fiber.</b> It is highly beneficial 
                                 for <b>heart health, diabetes management, weight loss,</b> and overall well-being due to its <b>low glycemic index (GI).</b>
-                                <h5 className="card-title">Types of Chickpeas Available in India</h5>
-                                India is one of the largest producers of chickpeas, offering multiple varieties known for their unique characteristics and nutritional benefits:
-                                <h5 className="card-title">Kabuli Chana (White Chickpeas)</h5>
-                                Large, round, and creamy-white in color
-                                <br />Rich in protein and fiber
-                                <br />Mild taste and smooth texture
-                                <br />Ideal for salads, curries, hummus, and snacks
-
-                                <h5 className="card-title">Desi Chana (Brown Chickpeas)</h5>
-                                Smaller in size with a rough coat
-                                <br />Higher fiber content than Kabuli Chana
-                                <br />Stronger, nuttier flavor
-                                <br />Often used in traditional Indian dishes like Chana Masala and Chana Chaat
-
-                                <h5 className="card-title">Green Chickpeas (Hara Chana)</h5>
-                                Fresh, unripe chickpeas with a sweet and earthy taste
-                                <br />Rich in antioxidants and essential vitamins
-                                <br />Can be eaten raw, roasted, or cooked in various dishes
-
-                                <h5 className="card-title">Black Chickpeas (Kala Chana)</h5>
-                                Dark brown to black in color with a firmer texture
-                                <br />Excellent source of plant-based protein
-                                <br />Commonly used in curries, soups, and sprouts for a protein-packed meal
-
-                                <h5 className="card-title">Why Choose Nafed Kabuli Chana?</h5>
-                                At <b>Nafed,</b> we take pride in offering <b>100% pure and natural Kabuli Chana,</b> sourced from 
-                                the best farms across India. Our chickpeas are <b>carefully selected, hygienically processed, and free 
-                                from artificial additives,</b> ensuring superior quality and taste.
-
-                                Rich in Protein & Essential Nutrients
-                                Pure, Natural & Chemical-Free
-                                Supports Heart Health & Weight Management
-                                Perfect for Indian & International Cuisines
-
-                                Add Nafed Kabuli Chana to your daily diet and enjoy the goodness of nature in every bite
+                                <PopupComponent />                     
                             </p>
                         </div>
                         <div>

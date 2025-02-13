@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProductComponent from './ProductComponent';
 import ShowPopup from './ShowPopup';
 
-const PopupComponent = () => {
+const KabuliChannaPopupComponent = () => {
 
     const [showPopup, setShowPopup] = useState(false);
 
@@ -73,11 +73,12 @@ const PopupComponent = () => {
     )
     return (
         <>
-            <button onClick={() => setShowPopup(true)}>Open Model</button>
-            {/* <a className='nav-link text-secondary'>click here </a> */}
+            {/* <text onClick={() => setShowPopup(true)}>Open Model</text> */}
+            {/* <a href='setShowPopup(true)' onClick={() => setShowPopup(true)}>More detail... </a> */}
+            <a href="#KabuliChanna" onClick={() => setShowPopup(true)}>More detail...</a>
             {showPopup && popupModel}
         </>
     );
 };
 
-export default PopupComponent;
+export default KabuliChannaPopupComponent;

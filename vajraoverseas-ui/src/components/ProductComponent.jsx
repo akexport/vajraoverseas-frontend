@@ -13,10 +13,11 @@ const ProductComponent = () => {
                         <div className="col-sm"><div className="card" >
                             <img src="src/assets/Products01.png" className="card-img-top" alt="..." height="400px" />
                         </div></div>
-                    </div><br />
+                    </div><br />{/*row closed */}
                     <div className="row">
-                        <div>
-                            <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "400px", height: "400px" }} />                         
+                        <div className="col-sm"><div className="card" >
+                            <div className="card-body">
+                            <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />                         
                             <p class="rounded float-start">
                                 <h4 className="card-title">Kabuli Chana – A Powerhouse of Nutrition</h4>
                                 Kabuli Chana, also known as <b>Chickpeas, Chole Chana, or Garbanzo Beans,</b> is a nutrient-dense legume 
@@ -24,18 +25,31 @@ const ProductComponent = () => {
                                 for <b>heart health, diabetes management, weight loss,</b> and overall well-being due to its <b>low glycemic index (GI).</b>
                                 <KabuliChannaPopupComponent />                     
                             </p>
-                        </div>
-                        <div>
-                            <img src="src/assets/Product_Sundried01.png" class="rounded float-end" alt="..." style={{ width: "200px", height: "200px" }} />
+                            </div>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
+                            <div className="card-body">
+                                <div className="row">
+                                <div className="col-sm">
+                            <img src="src/assets/Product_Sundried01.png" class="rounded float-end" alt="..." style={{ width: "200px", height: "150px" }} />
+                            </div>
+                            <div className="col-sm">                        
+                                For generations, sun-drying has been a trusted method of preserving fruits and vegetables, ensuring a year-round supply of essential nutrients. 
+                            </div>
+                            <h4 className="card-title">Sun-Dried Fruits & Vegetables – Preserving Nature’s Goodness</h4>
                             <p class="rounded float-end">
-                                <h4 className="card-title">Sun-Dried Fruits & Vegetables – Preserving Nature’s Goodness</h4>
-                                For generations, sun-drying has been a trusted method of preserving fruits and vegetables, ensuring a year-round supply of essential nutrients. This traditional technique enhances flavors naturally, retaining the goodness of vitamins and minerals without the need for artificial preservatives.
+                            This traditional technique enhances flavors naturally, retaining the goodness of vitamins and minerals without the need for artificial preservatives.
                                 One such speciality is <b>Pahadi Badi,</b> made from <b>grated squash vegetables and lentil paste,</b> 
                                 carefully dried in <b>sun and shade.</b> These protein-rich nuggets are <b>mildly spiced or completely plain,</b> making them a perfect addition to a variety of dishes.
                                 <SunDriedPopupComponent />     
                             </p>
-                        </div>
-                        <div>
+                                </div>
+                            </div>
+                        </div></div>
+                    </div>    {/*row closed */}
+                    <div className="row">
+                        <div className="col-sm"><div className="card" >
+                            <div className="card-body">
                             <img src="src/assets/Product_DryFruits.png" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
                             <p class="rounded float-start">
                                 <h4 className="card-title">De-Oiled Cakes - A Nutrient-Rich By-Product for Animal Feed & Fertilizer</h4>
@@ -45,8 +59,10 @@ const ProductComponent = () => {
                                 <b>nutrient-rich animal feed, organic fertilizers, and in aquaculture</b> due to their high protein, fiber, and essential nutrient content.
                                 <DOiledCakePopupComponent />
                             </p>
-                        </div>
-                        <div>
+                            </div>
+                        </div></div>
+                        <div className="col-sm"><div className="card" >
+                            <div className="card-body">
                             <img src="src/assets/Product_DryFruits.png" class="rounded float-end" alt="..." style={{ width: "200px", height: "200px" }} />
 
                             <p class="rounded float-end">
@@ -59,10 +75,11 @@ const ProductComponent = () => {
                                 <DryFruitsPopupComponent />
                                 
                             </p>
-                        </div>
-                    </div>
+                            </div>
+                        </div></div>
+                    </div>{/*row closed */}
 
-                </div>
+                </div>{/*container closed */}
             </React.Fragment>
 
         </>

@@ -12,16 +12,17 @@ const AboutUsComponent = () => {
                         </div></div>
                     </div><br /><br />
                     <div className="row">
-                        <div className="col-sm">
+                        {/* <div className="col-sm"> */}
                             {/* <video class="vedio" autoPlay width="650" height="350" loop>
                                 <source src="./VOHdHomepageIntro.mp4" type="video/mp4"/>
                             </video> */}
-                            <div className="card" >
+                            {/* <div className="card" >
                                 <img src="src/assets/AboutUs02.jpg" className="card-img-top" alt="..." height="520px" />
-                            </div>
-                        </div>
+                            </div> */}
+                        {/* </div> */}
                         <div className="col-sm">
-                            <div className="card" ><div className="card-body">            
+                            <div className="card" ><div className="card-body"> 
+                                <img src="src/assets/AboutUs02.jpg" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />           
                                 <h4 className="card-title">About Vajra Overseas</h4>
                                 <p className="card-text">
                                     At Vajra Overseas, we pride ourselves on being one of the leading force in the world of international trade.
@@ -57,7 +58,8 @@ const AboutUsComponent = () => {
                     </div> <br /><br />   
                     <div className="row" >   
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">         
+                            <div className="card-body">  
+                                <img src="src/assets/VisionaryIndia.jpg" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
                                 <h5 className="card-title">India’s Export Potential: A Gateway to Global Trade</h5>
                                 <p className="card-text">
                                     <b>Objectives of the EXIM Policy</b>
@@ -70,9 +72,9 @@ const AboutUsComponent = () => {
                                 </p>
                             </div>
                         </div></div>
-                        <div className="col-sm">
+                        {/* <div className="col-sm">
                             <img src="src/assets/VisionaryIndia.jpg" className="card-img-top" alt="..." height="490px" />
-                        </div>    
+                        </div>     */}
                     </div>
                     <br /><br />
                     <div className="row">
@@ -95,11 +97,12 @@ const AboutUsComponent = () => {
                     </div> 
                     <br /><br />   
                     <div className="row">
-                        <div className="col-sm"><div className="card" >
+                        {/* <div className="col-sm"><div className="card" >
                             <img src="src/assets/AboutusRisingGlobalExportLeader.png" className="card-img-top" alt="..." height="540px" />
-                        </div></div>
+                        </div></div> */}
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
+                                <img src="src/assets/AboutusRisingGlobalExportLeader.png" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
                                 <h4 className="card-title">Framework & Implementation of the EXIM Policy</h4>
                                 <p className="card-text">
                                 <b>The Foreign Trade (Development & Regulation) Act, 1992,</b> empowers the Indian government to formulate and 

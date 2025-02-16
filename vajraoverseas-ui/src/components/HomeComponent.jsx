@@ -15,6 +15,7 @@ function HomeComponent() {
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
+                            <img src="src/assets/NutritionFacts01.jpg" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
                                 <h4 className="card-title">Kabuli Channa</h4>
                                 <h5 className="card-title">Nutrition facts</h5>
                                 364 Calories - 100 grams
@@ -36,27 +37,23 @@ function HomeComponent() {
                                 <p>Percent Daily Values are based on a 2,000 calorie diet.
                                     Your daily values may be higher or lower depending on your calorie needs.</p>
                                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                                
                             </div>
                         </div></div>
-                        <div className="col-sm">
-                            <div className="card" >
-                                {/* <div className="card-body"> */}
-                                <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." height="490px" />
-                                {/* </div> */}
-                            </div>
-                        </div>
+                        {/* <div className="col-sm"><div className="card" >
+                            
+                            <img src="src/assets/NutritionFacts01.jpg" className="card-img-top" alt="..." height="490px" />
+                            
+                        </div></div> */}
                     </div>
                     <br /><br />
                     <div className="row">
-                        <div className="col-sm"><div className="card" >
-                            {/* <div className="card-body"> */}
-                                {/* <h5 className="card-title bg-primary text-white">Fascinating Facts About Kabuli Channa</h5> */}
+                        {/* <div className="col-sm"><div className="card" >
                                 <img src="src/assets/HomepageFascinatinFacts.jpg" className="card-img-top" alt="..." height="560px"/>
-                                {/* // style={{ width: "600px", height: "510px" }} /> */}
-                            {/* </div> */}
-                        </div></div>    
+                        </div></div>     */}
                         <div className="col-sm"><div className="card" >
-                            <div className="card-body">        
+                            <div className="card-body">  
+                            <img src="src/assets/HomepageFascinatinFacts.jpg" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }}/>      
                                 <h5 className="card-title">Fascinating Facts About Kabuli Channa</h5>
                                 <p className="card-text">
                                     <b>1. Nutritional Powerhouse:</b> Kabuli channa is a rich source of protein, dietary fiber, vitamins, and minerals such as iron, magnesium, and zinc.
@@ -78,6 +75,7 @@ function HomeComponent() {
                     <div className="row">
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
+                                <img src="src/assets/HomepagePowerPricision.jpg" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />
                                 <h5 className="card-title">Vajra Overseas – Pioneering Global Trade with Power and Precision</h5>
                                 <p className="card-text">
                                 Founded in <b>27th Feb 2023, Vajra Overseas</b> stands as a formidable force in international exports, 
@@ -94,11 +92,9 @@ function HomeComponent() {
                                 </p>
                             </div>
                         </div></div>
-                        <div className="col-sm"><div className="card" >
-                            {/* <div className="card-body"> */}
-                                <img src="src/assets/HomepagePowerPricision.jpg" className="card-img-top" alt="..." height="510px" />
-                            {/* </div> */}
-                        </div></div>
+                        {/* <div className="col-sm"><div className="card" >
+                            <img src="src/assets/HomepagePowerPricision.jpg" className="card-img-top" alt="..." height="510px" />
+                        </div></div> */}
                     </div>
                     <br /><br />
                     <div className="row">

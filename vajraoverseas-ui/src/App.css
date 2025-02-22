@@ -75,3 +75,50 @@
     margin-right: calc(-60.4* var(--bs-gutter-x));
     margin-left: calc(-0.3* var(--bs-gutter-x));
 }
+.fruits-choose-area {
+    background-color: #e8f8df;
+    position: relative;
+}
+.gray-bg-4 {
+    background: #f8f8f8;
+}
+.table-choose-area {
+    background-color: #dff7f8;
+    position: relative;
+}
+.section-title-furits {
+    font-family: 'Poppins', sans-serif;
+    color: #434343;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin: 25px 0 0;
+    position: relative;
+}
+.fruits-choose-serial {
+    background: rgba(0, 0, 0, 0) url(../../img/icon-img/50.png) no-repeat scroll center center / cover;
+    position: absolute;
+    height: 63px;
+    width: 150px;
+    left: -59px;
+    background-size: 60px;
+    text-align: center;
+}
+.fruits-choose-content {
+    width: 100% !important;
+    color: #666;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 20px;
+}
+.fruits-choose-wrapper {
+    margin-left: 20px;
+}
+.single-fruits-choose {
+    display: flex;
+    margin-bottom: 50px;
+}
+.landscape-single-fruit {
+    margin-bottom: 70px;
+}

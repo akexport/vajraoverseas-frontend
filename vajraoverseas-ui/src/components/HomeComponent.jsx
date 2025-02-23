@@ -1,13 +1,15 @@
 import React from 'react'
 import Slider from './Slider';
+import {EmblaCarousel}  from './EmblaCarousel';
 // import VideoLooper from 'react-video-looper'
 function HomeComponent() {
     return (
         <>
             <React.Fragment>
-                <div className="container">
-                    <Slider />
-
+                <div className="row">
+                    
+                    <EmblaCarousel />
+                    
                 </div>
                 <br /><br />
                 <div class="container">

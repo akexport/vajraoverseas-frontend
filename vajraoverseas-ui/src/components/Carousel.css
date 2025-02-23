@@ -1,158 +1,139 @@
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.embla {
+  overflow: hidden;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  
+  flex: 0 0 100%;
+  min-width: 0;
+  
+}
+.embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  user-select: none;
+}
+.embla__controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+}
+.embla__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+}
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 3.6rem;
+  height: 3.6rem;
+  z-index: 1;
+  border-radius: 50%;
+  color: var(--text-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.embla__button:disabled {
+  color: var(--detail-high-contrast);
+}
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+.embla__play {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  color: var(--text-body);
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0 2.4rem;
+  min-width: 8.4rem;
+}
+.embla__progress {
+  border-radius: 1.8rem;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  background-color: var(--background-site);
+  position: relative;
+  height: 0.6rem;
+  justify-self: flex-end;
+  align-self: center;
+  width: 13rem;
+  max-width: 90%;
+  overflow: hidden;
+}
+.embla__progress__bar {
+  background-color: var(--text-body);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+}
+.embla__controls {
+  grid-template-columns: auto 1fr auto;
+}
+.embla__progress {
+  justify-self: center;
+  transition: opacity 0.3s ease-in-out;
+  width: 8rem;
+}
+.embla__progress--hidden {
+  opacity: 0;
+}
+.embla__progress__bar {
+  animation-name: autoplay-progress;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.embla__progress--hidden .embla__progress__bar {
+  animation-play-state: paused;
+}
+@keyframes autoplay-progress {
+  0% {
+    transform: translate3d(0, 0, 0);
   }
-    
-  
-  .carouselwrapper {
-    overflow: hidden;
-    position: relative;
+  100% {
+    transform: translate3d(100%, 0, 0);
   }
-  
-  .carousel {
-    width: var(--carouselWidth);
-    margin: 0 0 0 var(--carouselLeftMargin);
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .carousel-prev {
-    animation-duration: .6s;
-    animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
-    animation-name: prev;
-  }
-  
-  .carousel-next {
-    animation-duration: .6s;
-    animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
-    animation-name: next;
-  }
-  
-  .carousel-li {
-    padding-bottom: 10px;
-    text-align: center;
-    width: calc(var(--cardWidth) - var(--card-margin) * 2);
-    box-sizing: border-box;
-  }
-  
-  .carousel-bg-img {
-    background-size: cover;
-      background-position: center;
-      text-align: center;
-      position: relative;
-      height: 80px;
-      margin: auto;
-  }
-  
-  .carousel-logo-img {
-    position: absolute;
-    top: 65%;
-    left: 50px;
-  } 
-  
-  .carousel-card-outline {
-    font-size: 12px;
-    letter-spacing: 0px;
-    color: #EC642B;
-    text-decoration: none;
-  }
-  
-  
-  .ui {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    width: calc(100% - var(--card-margin) * 2);
-    justify-content: space-between;
-    padding: var(--card-margin);
-    z-index: 100;
-  }
-  
-  .carousel-button {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    color: #111;
-    box-shadow: 0px 3px 6px #CECEF7B3;
-    border: 1px solid #5A569533;
-    transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1);
-  }
-  
-  .carousel-button:hover {
-    border: 1px solid #dedede;
-  }
-  
-  .carousel-button:focus {
-    outline: none;
-    border: 1px solid #dedede;
-  }
-  
-  .carousel-card {
-    border: 1px solid #DDDCE9;
-    border-radius: 16px;
-    margin: var(--card-margin);
-    background: var(--color-white);
-  }
-  
-  .carousel-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 0;
-  }
-  
-  
-  /* Card image */
-  .carousel-card-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    /* Center the image */
-  }
-  
-  /* Card text */
-  .carousel-card-text {
-    color: #5a5695;
-    font-size: 12px;
-    padding: 0px 10px;
-  }
-  
-  /* Card button */
-  .carousel-card-button {
-    color: #ec642b;
-    cursor: pointer;
-    border: none;
-    background-color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  
-  .carousel-card-button:hover {}
-  
-  
-  @keyframes next {
-    from {
-      transform: translateX(0px);
-    }
-  
-    to {
-      transform: translateX(calc(0px + var(--cardWidth)));
-    }
-  }
-  
-  @keyframes prev {
-    from {
-      transform: translateX(0px);
-    }
-  
-    to {
-      transform: translateX(calc(0px - var(--cardWidth)));
-    }
-  }
+}

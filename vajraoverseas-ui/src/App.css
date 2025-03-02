@@ -82,6 +82,9 @@
 .gray-bg-4 {
     background: #f8f8f8;
 }
+.product-bg-4 {
+    background: #f8f8f8;
+}
 .table-choose-area {
     background-color: #dff7f8;
     position: relative;
@@ -96,9 +99,9 @@
     position: relative;
 }
 .fruits-choose-serial {
-    background: rgba(0, 0, 0, 0) url(../../img/icon-img/50.png) no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url(../../src/assets/50.png) no-repeat scroll center center / cover;
     position: absolute;
-    height: 63px;
+    height: 50px;
     width: 150px;
     left: -59px;
     background-size: 60px;
@@ -121,4 +124,13 @@
 }
 .landscape-single-fruit {
     margin-bottom: 70px;
+}
+.product-fruit-wrapper {
+    height: 330px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 23px;
+}
+.product-fruit-img {
+    position: relative;
+    transition: all .3sease 0s;
 }

@@ -8,42 +8,61 @@ const ProductComponent = () => {
     return (
         <>
             <React.Fragment>
-                <div className="container">
+                
                     <div className="row">
-                        <div className="col-sm"><div className="card" >
-                            <img src="src/assets/Products01.png" className="card-img-top" alt="..." height="400px" />
-                        </div></div>
+                        
+                        <img src="src/assets/Products01.png" className="card-img-top" alt="..." height="400px" />
+                        
                     </div><br />{/*row closed */}
+                    <div class="container">
+                    <div class="paper-bg">
+                        <div class="section-title-furits text-center mb-80">
+                            <img src="src/assets/HomepageFascinatinFacts.jpg" style={{ width: "100px", height: "100px" }} />
+                            <h5 class="section-title-furits">Vajra Overseas – Pioneering Global Trade with Power and Precision</h5>
+                        </div>
+                        <div className="row">
+                            <div className="col-sm fruits-choose-content">
+                                <p>
+                                “As the ‘land of spices’, India exports tons of various kinds of food. 
+                                In fact, food export from India is a major source of revenue. To help your 
+                                products reach to even the farthest corners of the world, 
+                                Vajra Overseas Foods offers you various types of food export as well as 
+                                spices export from India. Being among the leading food export companies 
+                                in India, we ensure our services conform to international quality standards.”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div className="container">    
                     <div className="row">
-                        <div className="col-sm"><div className="card" >
+                        <div className="col-sm"><div className="card">
                             <div className="card-body">
                             <img src="src/assets/Product_KabuliChana-02.png" class="rounded float-start" alt="..." style={{ width: "200px", height: "200px" }} />                         
-                            <p class="rounded float-start">
+                            
                                 <h4 className="card-title">Kabuli Chana – A Powerhouse of Nutrition</h4>
+                                {/* <p class="rounded float-start">
                                 Kabuli Chana, also known as <b>Chickpeas, Chole Chana, or Garbanzo Beans,</b> is a nutrient-dense legume 
                                 packed with <b>protein, folic acid (Vitamin B9), magnesium, and dietary fiber.</b> It is highly beneficial 
                                 for <b>heart health, diabetes management, weight loss,</b> and overall well-being due to its <b>low glycemic index (GI).</b>
                                 <KabuliChannaPopupComponent />                     
-                            </p>
+                            </p> */}
                             </div>
                         </div></div>
                         <div className="col-sm"><div className="card" >
                             <div className="card-body">
-                                <div className="row">
-                                <div className="col-sm">
+                                
                             <img src="src/assets/Product_Sundried01.png" class="rounded float-end" alt="..." style={{ width: "200px", height: "150px" }} />
-                            </div>
-                            <div className="col-sm">                        
-                                For generations, sun-drying has been a trusted method of preserving fruits and vegetables, ensuring a year-round supply of essential nutrients. 
-                            </div>
                             <h4 className="card-title">Sun-Dried Fruits & Vegetables – Preserving Nature’s Goodness</h4>
-                            <p class="rounded float-end">
+                            {/* <p class="rounded float-end">
+                            For generations, sun-drying has been a trusted method of preserving fruits and vegetables, ensuring a year-round supply of essential nutrients. 
                             This traditional technique enhances flavors naturally, retaining the goodness of vitamins and minerals without the need for artificial preservatives.
                                 One such speciality is <b>Pahadi Badi,</b> made from <b>grated squash vegetables and lentil paste,</b> 
                                 carefully dried in <b>sun and shade.</b> These protein-rich nuggets are <b>mildly spiced or completely plain,</b> making them a perfect addition to a variety of dishes.
                                 <SunDriedPopupComponent />     
-                            </p>
-                                </div>
+                            </p> */}
+                            
                             </div>
                         </div></div>
                     </div>    {/*row closed */}

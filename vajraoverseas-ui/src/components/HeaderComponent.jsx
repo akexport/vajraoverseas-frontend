@@ -17,7 +17,7 @@ const HeaderComponent = () => {
           <div className='container d-flex flex-wrap justify-content-left'>
             <a href="/" className='nav-link text-secondary'>
               <svg className='bi d-block mx-auto mb-1' width="24" height="24"><use xlinkHref="#logo"></use></svg>
-              <img className='logo' src='./VajraLogo2.png' />
+              <img className='logoContainer' src='./VajraLogo3.png' />
             </a>
           </div>
           <div className='container d-flex flex-wrap justify-content-end'>

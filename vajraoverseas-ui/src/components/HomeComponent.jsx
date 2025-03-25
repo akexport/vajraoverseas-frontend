@@ -12,7 +12,7 @@ function HomeComponent() {
                 </div>
                 <br />
                 <div class="container">
-                    <div class="gray-bg-4">
+                    <div class="paper-bg">
                         <div class="section-title-furits text-center mb-80">
                             <img src="src/assets/HomepageFascinatinFacts.jpg" style={{ width: "100px", height: "100px" }} />
                             <h5 class="section-title-furits">Vajra Overseas – Pioneering Global Trade with Power and Precision</h5>
@@ -40,17 +40,24 @@ function HomeComponent() {
                 </div>
                 <br />
                 <div class="container">
-                    <div class="product-bg-4">
+                    <div class="paper-blue-bg">
                         <div class="section-title-furits text-center mb-80">
                             <img src="src/assets/HomepageFascinatinFacts.jpg" style={{ width: "100px", height: "100px" }} />
                             <h5 class="section-title-furits">Export Most Experties Product</h5>
                         </div>
                         <div className="row">
-                            <div className="col-sm fruits-choose-content">
-                                <h4>01 Quality in every drop:</h4>
-                                <p>
-                                    In our opinion quality stands for the products which meets customer’s expectations and specifications. Our motto is that only best is good enough for customer’s application.
-                                </p>
+                            <div className="col-sm">
+                            <div className="card" ><div className="card-body"> 
+                                <div class="fruits-choose-serial">
+                                    <h3>01</h3>
+                                </div>
+                                <div class="fruits-choose-content">
+                                    <h4>Quality in every drop:</h4>
+                                    <p>
+                                        In our opinion quality stands for the products which meets customer’s expectations and specifications. Our motto is that only best is good enough for customer’s application.
+                                    </p>
+                                </div>
+                                </div></div>
                             </div>
                             <div className="col-sm fruits-choose-content">
                                 <h4>02 Technical qualification:</h4>

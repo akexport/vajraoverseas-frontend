@@ -16,6 +16,17 @@
     background-color: black;
     text-align: left;
     color: white;
+    background-position: left top;
+}
+.logoContainer
+{
+    width: 15vw;
+    height: 15vh;
+    margin: auto;
+    padding: 0;
+    top: 20;
+    bottom: 0;
+    position: absolute;
 }
 .img-responsive {
     max-width: 100px;  
@@ -82,6 +93,15 @@
 .gray-bg-4 {
     background: #f8f8f8;
 }
+.paper-bg {
+    background-image: url(src/assets/paper.gif);
+    /* background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px; */
+}
+.paper-blue-bg {
+    background-image: url(src/assets/paperBlueBG.jpg); 
+}
 .product-bg-4 {
     background: #f8f8f8;
 }
@@ -103,7 +123,7 @@
     position: absolute;
     height: 50px;
     width: 150px;
-    left: -59px;
+    left: 0px;
     background-size: 60px;
     text-align: center;
 }
@@ -133,4 +153,7 @@
 .product-fruit-img {
     position: relative;
     transition: all .3sease 0s;
+}
+.logo-background {
+    background-position: right bottom, left top;
 }

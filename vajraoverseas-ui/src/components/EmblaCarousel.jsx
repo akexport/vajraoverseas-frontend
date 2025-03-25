@@ -6,7 +6,7 @@ import "./Carousel.css";
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true}, [Autoplay()]);
-  const images = ["../src/assets/VajraHome1.png","../src/assets/VajraHome2.png","../src/assets/VajraHome3.png",
+  const images = ["../src/assets/VajraHome1.png","../src/assets/Pump1.jpeg","../src/assets/VajraHome3.png",
     "../src/assets/VajraHome4.png","../src/assets/VajraHome5.png"
   ];
   return (

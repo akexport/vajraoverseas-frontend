@@ -9,7 +9,9 @@ function HomeComponent() {
             <React.Fragment>
                 <div className="row">
                     <EmblaCarousel />
+                    
                 </div>
+                <p>Image Dimention - 1375 * 583 Home top slider images</p>
                 <br />
                 <div class="container">
                     <div class="paper-bg">
@@ -37,7 +39,9 @@ function HomeComponent() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
+                <p>Image Dimention - 1140 * 307 bachground image</p>
                 <br />
                 <div class="container">
                     <div class="paper-blue-bg">
@@ -80,6 +84,7 @@ function HomeComponent() {
                         <ProductListCarousel />
                     </div>
                 </div>
+                <p>Image Dimention - 350 * 370 each image</p>
                 <div class="container">
                     <div class="fruits-choose-area">
                         <div class="section-title-furits text-center mb-80">

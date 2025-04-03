@@ -157,3 +157,27 @@
 .logo-background {
     background-position: right bottom, left top;
 }
+.prod-headings-text {
+    width: 100% !important;
+    color: #666;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 20px;
+}
+.prod-grain-bg {
+    background-color: #e7ecee;
+    position: relative;
+}
+.prod-sundry-bg {
+    background-color: #e0ebf0;
+    position: relative;
+}
+.prod-doiled-bg {
+    background-color: #d8eaf1;
+    position: relative;
+}
+.prod-dryfruit-bg {
+    background-color: #d0e9f3;
+    position: relative;
+}
